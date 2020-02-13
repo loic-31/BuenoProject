@@ -86,9 +86,9 @@ That's it :-)
 
 ### Commit  
 
-git add .  
-git commit "commentaire"  
-git push -u origin master
+sudo git add .  
+sudo git commit -m "commentaire"  
+sudo git push -u origin master
 
 ### Synchroniser le dépôt distant  
 
