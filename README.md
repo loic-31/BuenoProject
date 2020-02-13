@@ -8,14 +8,14 @@
 **sudo apt-get install git**  
 
 Renseigner vos informations :    
-**git config --global user.name "YOUR_USERNAME"**  
-**git config --global user.email "your_email_address@example.com"**  
+**sudo git config --global user.name "YOUR_USERNAME"**  
+**sudo git config --global user.email "your_email_address@example.com"**  
 
 Vérifier vos informations :  
-**git config --global --list**  
+**sudo git config --global --list**  
 
 Persister vos informations :  
-**git config --global credential.helper store**  
+**sudo git config --global credential.helper store**  
 
 ### Installer visual studio code
 
