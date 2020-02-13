@@ -11,9 +11,17 @@ Il faudra peut être le modifier et l'exclure du versionning.
 
 ## Installation
 
-depuis un terminal :  
+Télécharger les sources et les dépendances du projet et modifier les droits d'accès au fichiers :  
 
-**git clone https://github.com/loic-31/BuenoProject && cd BuenoProject && docker-compose up*   
+**git clone https://github.com/loic-31/BuenoProject && cd BuenoProject**
+**pwd** puis utiliser le chemin affiché pour l'insérer dans la commande suivante  
+**docker run --rm -v <insérer-le-chemin-ici>/my-site:/app composer install && sudo find . -type d -exec chmod +rx {} \;** 
+
+Lancer le container : 
+**docker-compose up**
+
+Puis :
+**http://localhost:80/**
 
 ## Auteurs
 
