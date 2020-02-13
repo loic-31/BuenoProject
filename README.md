@@ -1,11 +1,20 @@
  
 # Bueno project
 
+## Pré-requis
+
+:git
+:docker
+
+Selon la doc de laravel, le fichier /my-site/.env (fichier caché) ne doit pas être versionné.  
+Il faudra peut être le modifié et l'exclure du versionning.  
+
 ## Installation
 
-git clone https://github.com/loic-31/BuenoProject
-depuis le dossier Bueno
-docker-compose up
+depuis un terminal
+*git clone https://github.com/loic-31/BuenoProject  
+depuis le dossier Bueno  
+*docker-compose up  
 
 ## Auteurs
 
