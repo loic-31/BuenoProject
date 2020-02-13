@@ -3,8 +3,8 @@
 
 ## Pré-requis
 
-:git
-:docker
+: git
+: docker
 
 Selon la doc de laravel, le fichier /my-site/.env (fichier caché) ne doit pas être versionné.  
 Il faudra peut être le modifié et l'exclure du versionning.  
