@@ -62,7 +62,7 @@ Lancer le container :
 **docker-compose up**  
 
 Depuis un nouveau terminal :  
-**docker exec -it php /bin/bash **  
+**docker exec -it php /bin/bash**  
 
 Puis se positionner dans le dossier **/var/www** :  
 **cd ..**  
@@ -73,7 +73,7 @@ Créer de la clé d’encryption
 Stopper le container :  
 **docker-compose down**  
 
-Modifier les droits sur les fichiers (récursif):  
+Modifier les droits sur les fichiers (commande récursive à lancer depuis le dossier BuenoProject):  
 **sudo chmod -R 0777 ./**  
 
 Démarrer le container :  
