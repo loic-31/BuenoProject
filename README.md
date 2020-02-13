@@ -45,7 +45,7 @@ Télécharger les sources :
 **git clone https://github.com/loic-31/BuenoProject && cd BuenoProject**  
 **pwd**   
 puis utiliser le chemin affiché pour l'insérer dans la commande suivante 
-**docker run --rm -v INSERER_LE_CHEMIN_ABSOLU/BuenoProject/my-site:/app composer install**  
+**docker run --rm -v INSERER_LE_CHEMIN_ABSOLU/my-site:/app composer install**  
 
 Renommer le fichier BuenoProject/my-site/**.env.exemple** en **.env**
 (des adaptations sont sûrement à prévoir dans ce fichier).  
