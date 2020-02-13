@@ -82,7 +82,7 @@ Démarrer le container :
 That's it :-)    
 **http://localhost:80/**  
 
-## Gestion des sources   
+## Gestion des sources
 
 ```diff
 - Penser à stopper le container avant de gérer les sources.
