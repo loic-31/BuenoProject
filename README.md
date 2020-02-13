@@ -26,7 +26,4 @@ Puis :
 ## Auteurs
 
 * **Mickael HUMPHREYS**
-
-## License
-
-Pas touche v2
+* **à compléter**
