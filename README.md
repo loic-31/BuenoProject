@@ -1,7 +1,7 @@
  
 # Bueno project
 
-## Pré-requis
+## Pré-requis (fait sur Debian)
 
 ### Installer git
 
@@ -16,6 +16,14 @@ Vérifier vos informations :
 
 Persister vos informations :  
 **git config --global credential.helper store**  
+
+### Installer visual studio code
+
+Télécharger vsc :  
+https://code.visualstudio.com/  
+
+Installer vsc :  
+**sudo dpkg -i code_1.42.1-1581432938_amd64.deb**  
 
 ### Installer docker (copier coller de moodle)  
 
@@ -47,7 +55,7 @@ Télécharger les sources :
 puis utiliser le chemin affiché pour l'insérer dans la commande suivante :  
 <strong>docker run --rm -v INSERER_LE_CHEMIN_ABSOLU/my-site:/app composer install</strong>  
 
-Renommer le fichier BuenoProject/my-site/**.env.exemple** en **.env**
+En attendant le téléchargement des dépendances, renommer le fichier BuenoProject/my-site/**.env.exemple** en **.env**
 (des adaptations sont sûrement à prévoir dans ce fichier).  
 
 Lancer le container :  
