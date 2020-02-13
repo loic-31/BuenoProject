@@ -66,7 +66,7 @@ Stopper le container :
 **docker-compose down**  
 
 Modifier les droits sur les fichiers (récursif):  
-**chmod -R 0777 ./**  
+**sudo chmod -R 0777 ./**  
 
 Démarrer le container :  
 **docker-compose up**  
