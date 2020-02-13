@@ -83,7 +83,7 @@ That's it :-)
 **http://localhost:80/**  
 
 ## Gestion des sources 
-<p>Sspan style="color:red"><em>Penser à stopper le container avant de gérer les sources. </em></span>.</p>
+<p><span style="color:red"><em>Penser à stopper le container avant de gérer les sources. </em></span>.</p>
   
 **docker-compose down**
 
