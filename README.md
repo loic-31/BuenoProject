@@ -84,6 +84,9 @@ That's it :-)
 
 ## Gestion des sources 
 
+Penser à stopper le container avant de gérer les sources.   
+**docker-compose down**
+
 ### Commit  
 
 sudo git add .  
