@@ -11,9 +11,9 @@ Il faudra peut être le modifier et l'exclure du versionning.
 
 ## Installation
 
-depuis un terminal
+depuis un terminal :  
 **git clone https://github.com/loic-31/BuenoProject**  
-depuis le dossier Bueno  
+depuis le dossier Bueno :  
 **docker-compose up**  
 
 ## Auteurs
