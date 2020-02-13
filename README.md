@@ -3,7 +3,9 @@
 
 ## Installation
 
-A venir
+git clone https://github.com/loic-31/BuenoProject
+depuis le dossier Bueno
+docker-compose up
 
 ## Auteurs
 
