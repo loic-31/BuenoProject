@@ -92,7 +92,7 @@ sudo git push -u origin master
 
 ### Synchroniser le dépôt distant  
 
-git pull
+sudo git pull origin master  
 
 ## Auteurs
 
