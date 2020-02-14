@@ -68,14 +68,30 @@ sudo dpkg -i containerd.io_1.2.6-3_amd64.deb
 sudo dpkg -i docker-ce_19.03.6~3-0~debian-stretch_amd64.deb  
 sudo dpkg -i docker-ce-cli_19.03.6~3-0~debian-stretch_amd64.deb  
 
+Installer docker compose :  
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose  
+sudo chmod +x /usr/local/bin/docker-compose  
+
 Tester l’installation:  
 sudo docker run hello-world  
 
 
 ### Telecharger les sources et configurer le container Docker  
 
+```diff
+- Ne pas hésiter à modifier les droits sur les fichiers en cas d'erreur avec 
+- sudo chmod -R 0777 ./
+```
+
 Télécharger les sources :    
-**git clone https://github.com/loic-31/BuenoProject && cd BuenoProject**  
+**git clone https://github.com/loic-31/BuenoProject && cd BuenoProject**
+
+Modifier les droits sur les fichiers (commande récursive à lancer depuis le dossier BuenoProject):  
+**sudo chmod -R 0777 ./**  
+
+Démarrer le container et télécharger les dépendances Docker :  
+**docker-compose build**
+
 **pwd**   
 puis utiliser le chemin affiché pour l'insérer dans la commande suivante :  
 <strong>docker run --rm -v INSERER_LE_CHEMIN_ABSOLU/my-site:/app composer install</strong>  
