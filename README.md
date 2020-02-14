@@ -25,7 +25,7 @@ https://code.visualstudio.com/
 Installer vsc :  
 **sudo dpkg -i code_1.42.1-1581432938_amd64.deb**  
 
-### Installer docker (source : https://docs.docker.com/install/linux/docker-ce/ubuntu/)  
+### Installer docker (voir aussi chapitre installation alternative) (source : https://docs.docker.com/install/linux/docker-ce/ubuntu/)  
 
 sudo apt-get install \  
     apt-transport-https \  
