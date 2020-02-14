@@ -33,6 +33,7 @@ sudo apt-get install \
     curl \  
     gnupg-agent \  
     software-properties-common   
+
     
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
     
@@ -44,6 +45,28 @@ sudo add-apt-repository \
    
 sudo apt-get update  
 sudo apt-get install docker-ce docker-ce-cli containerd.io  
+
+Tester l’installation:  
+sudo docker run hello-world  
+
+### Installation alternative de docker (source : https://download.docker.com/linux/debian/dists/stretch/pool/stable/amd64/)  
+
+sudo apt-get install \  
+    apt-transport-https \  
+    ca-certificates \  
+    curl \  
+    gnupg-agent \  
+    software-properties-common   
+
+Télécharger les packages suivants :  
+https://download.docker.com/linux/debian/dists/stretch/pool/stable/amd64/containerd.io_1.2.6-3_amd64.deb  
+https://download.docker.com/linux/debian/dists/stretch/pool/stable/amd64/docker-ce-cli_19.03.6~3-0~debian-stretch_amd64.deb  
+https://download.docker.com/linux/debian/dists/stretch/pool/stable/amd64/docker-ce_19.03.6~3-0~debian-stretch_amd64.deb  
+
+Installer les packages :  
+sudo dpkg -i containerd.io_1.2.6-3_amd64.deb   
+sudo dpkg -i docker-ce_19.03.6~3-0~debian-stretch_amd64.deb  
+sudo dpkg -i docker-ce-cli_19.03.6~3-0~debian-stretch_amd64.deb  
 
 Tester l’installation:  
 sudo docker run hello-world  
