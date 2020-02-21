@@ -96,6 +96,8 @@ Démarrer le container et télécharger les dépendances Docker :
 puis utiliser le chemin affiché pour l'insérer dans la commande suivante :  
 <strong>docker run --rm -v INSERER_LE_CHEMIN_ABSOLU/my-site:/app composer install</strong>  
 
+Linux : INSERER_LE_CHEMIN_ABSOLU = $(pwd)
+
 En attendant le téléchargement des dépendances, renommer le fichier BuenoProject/my-site/**.env.exemple** en **.env**
 (des adaptations sont sûrement à prévoir dans ce fichier).  
 
