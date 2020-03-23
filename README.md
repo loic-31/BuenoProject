@@ -27,12 +27,12 @@ Installer vsc :
 
 Liste des extensions Laravel VueJS
 
-https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade
-https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view
-https://marketplace.visualstudio.com/items?itemName=stef-k.laravel-goto-controller
-https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
-https://marketplace.visualstudio.com/items?itemName=octref.vetur
-https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade  
+https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view  
+https://marketplace.visualstudio.com/items?itemName=stef-k.laravel-goto-controller  
+https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client  
+https://marketplace.visualstudio.com/items?itemName=octref.vetur  
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint  
 
 ### Installer docker (voir aussi chapitre installation alternative) (source : https://docs.docker.com/install/linux/docker-ce/ubuntu/)  
 
