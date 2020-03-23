@@ -25,6 +25,15 @@ https://code.visualstudio.com/
 Installer vsc :  
 **sudo dpkg -i code_1.42.1-1581432938_amd64.deb**  
 
+Liste des extensions Laravel VueJS
+
+https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade
+https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view
+https://marketplace.visualstudio.com/items?itemName=stef-k.laravel-goto-controller
+https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
+https://marketplace.visualstudio.com/items?itemName=octref.vetur
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
 ### Installer docker (voir aussi chapitre installation alternative) (source : https://docs.docker.com/install/linux/docker-ce/ubuntu/)  
 
 sudo apt-get install \  
