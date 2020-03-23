@@ -36,6 +36,9 @@ https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense
 https://marketplace.visualstudio.com/items?itemName=octref.vetur  
 https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint  
 
+Installer également l'extension vue-devtools sur votre navigateur (TRES IMPORTANT POUR LE DEBUG !!)  
+https://github.com/vuejs/vue-devtools  
+
 ### Installer docker (voir aussi chapitre installation alternative) (source : https://docs.docker.com/install/linux/docker-ce/ubuntu/)  
 
 sudo apt-get install \  
