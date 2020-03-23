@@ -142,6 +142,9 @@ That's it :-)
 Les logs de Larravel sont ici :   
 **../my-site/storage/logs**  
 
+Pour ajouter une trace dans la log (fonctionne uniquement précédé du caractère "\") :  
+**\Log::debug("message");**  
+
 ## Gestion des sources
 
 ```diff
