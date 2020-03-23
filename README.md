@@ -25,7 +25,9 @@ https://code.visualstudio.com/
 Installer vsc :  
 **sudo dpkg -i code_1.42.1-1581432938_amd64.deb**  
 
-Liste des extensions Laravel VueJS
+Lancer vsc et résoudre les dépendances proposées au lancement  
+
+Liste des extensions Laravel VueJS à installer
 
 https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade  
 https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view  
