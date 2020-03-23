@@ -139,6 +139,9 @@ Démarrer le container :
 That's it :-)    
 **http://localhost:80/**  
 
+Les logs de Larravel sont ici :   
+**../my-site/storage/logs**  
+
 ## Gestion des sources
 
 ```diff
