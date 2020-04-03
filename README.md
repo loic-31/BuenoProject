@@ -116,9 +116,9 @@ En attendant le téléchargement des dépendances, renommer le fichier BuenoProj
 (des adaptations sont sûrement à prévoir dans ce fichier).  
 
 Lancer le container :  
-**docker-compose up**  
+**docker-compose up &**  
 
-Depuis un nouveau terminal :  
+Puis :  
 **docker exec -it php /bin/bash**  
 
 Puis se positionner dans le dossier **/var/www** :  
