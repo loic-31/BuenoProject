@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <p>Comming soon</p>
+                    <p>Coming soon</p>
                 </div>
             </div>
         </div>
